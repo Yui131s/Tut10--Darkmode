@@ -1,0 +1,124 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color:antiquewhite;
+}
+
+.header{
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.content, .flash-cards, .table{
+    max-width: 1200px;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.content{
+    align-items: baseline;
+}
+.main-content{
+    order: 2;
+}
+.sidebar-1{
+    order: 1;
+}
+
+.sidebar-2{
+    order: 3;
+}
+.card{
+    justify-content: space-evenly;
+    padding: 25px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.card-1{
+    background-color: lightpink;
+    margin-right: 30px;
+}
+
+.card-2{
+    background-color: limegreen;
+}
+
+.card-3{
+    background-color: aqua;
+    margin-left:30px;
+}
+
+.table{
+    max-width: 850px;
+    background-color: antiquewhite;
+    margin-bottom: 50px;
+    display: flex;
+
+}
+
+.main-page{
+    background-color: rgb(113, 243, 182);
+    padding: 15px;
+    
+}
+
+.secondary-page{
+   
+}
+
+.section-1{
+    background-color: rgb(135, 166, 250);
+}
+
+.section-2{
+    background-color: rgb(105, 129, 197);
+
+}
+
+.section-3{
+    background-color: rgb(74, 91, 139);
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-content {
+        order: 1;
+    }
+    .sidebar-1 {
+        order: 2;
+    }
+    .sidebar-2 {
+        order: 3;
+    }
+
+    .flash-cards,.table {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-1 {
+        margin-left: 30px;
+    }
+    .card-2 {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .card-3 {
+        margin-right: 30px;
+    }
+    .section-1, .section-2, .section-3 {
+        
+    }
+
+}
