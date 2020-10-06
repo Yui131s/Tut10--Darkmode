@@ -7,7 +7,11 @@ function changeMode() {
     const sidebar = document.querySelectorAll(".sidebar");
     const cards = document.querySelectorAll(".cards");
     const card = document.querySelectorAll(".card");
+<<<<<<< Updated upstream
     const table = document.querySelectorAll(".ctable");
+=======
+    const table = document.querySelectorAll(".table");
+>>>>>>> Stashed changes
     const main = document.querySelectorAll(".main-page");
     const secondary = document.querySelectorAll(".secondary-page");
     const section = document.querySelectorAll(".section");
